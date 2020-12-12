@@ -7,7 +7,7 @@ import(
 
 func CreateFile(fileName string) *os.File {
 
-    prefix := "/home/rfish/Desktop/go_workspaces/AOC2020/src/files/"
+    prefix := "/home/rfish/Desktop/projects/advent-of-code/files/"
 
     fullPath := prefix + fileName
 
