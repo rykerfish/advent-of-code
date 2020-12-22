@@ -16,6 +16,7 @@ func main(){
         "1": problems.ProblemOne,
         "2": problems.ProblemTwo,
         "3": problems.ProblemThree,
+        "4": problems.ProblemFour,
     }
 
     problemNum := os.Args[1]
