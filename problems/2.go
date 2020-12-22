@@ -1,4 +1,4 @@
-package main
+package problems
 
 import(
     "fmt"
@@ -7,7 +7,7 @@ import(
     "github.com/rykerfish/advent-of-code/fileIO"
 )
 
-func main(){
+func ProblemTwo(){
 
     file := fileIO.CreateFile("2.txt")
     defer file.Close()
